@@ -1,0 +1,22 @@
+body{
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/propina.jpg);
+    background-size: cover;
+    
+    }
+    p{ width: 800px;
+        height: 100px;
+        color: black;
+        background-color: rgba(255, 255, 252, 0.452);
+        font-weight: bold;
+        font-size: 50px; 
+        border: solid black 1px;
+        box-shadow: 10px 0px 10px rgb(100, 100, 100);
+    }
+.container{
+    font-size: 50px; 
+
+
+}
