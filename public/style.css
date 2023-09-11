@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.btn{
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    background: burlywood;
+   border-radius: 50px;
+    transition: transformn 0.3s case;
+}
