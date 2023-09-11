@@ -1,0 +1,30 @@
+body{
+    font-family:Arial, sans-serif;
+    background-image: url(../img/propina.jpg);
+    background-size: cover;
+    
+    }
+    p{ width: 800px;
+        height: 110px;
+        color: rgba(255, 255, 255, 0.719);
+        background-color: rgba(0, 0, 0, 0.700);
+        font-weight: bold;
+        border: solid rgba(255, 255, 255, 0.608) 2px;
+        box-shadow: 10px 0px 10px rgb(100, 100, 100);
+        display: inline-block; 
+        padding: 10px;
+    }
+.container{
+    font-size: 50px;     
+}
+        h1{
+        color: rgba(255, 254, 254, 0.685);
+        box-shadow: 10px 0px 10px rgb(100, 100, 100);
+        background-color: rgba(0, 0, 0, 0.709);
+        border: solid rgba(255, 255, 255, 0.608) 2px;;
+        text-decoration: underline;
+        text-decoration-color:  rgba(255, 254, 254, 0.685); 
+        text-decoration-thickness: 5px;
+        width: 1200px;
+        }
+
