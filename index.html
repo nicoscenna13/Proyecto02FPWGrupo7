@@ -11,7 +11,14 @@
         <label for="total">Total de la cuenta:</label>
         <input type="number" id="total" placeholder="Ingrese el total de la cuenta">
         <label for="porcentaje">Porcentaje de propina:</label>
-        <input type="number" id="porcentaje" placeholder="Ingrese el porcentaje de propina">
+        <!--<input type="number" id="porcentaje" placeholder="Ingrese el porcentaje de propina">-->
+        <select name="porcentaje" id="porcentaje">
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+        </select>
         <button onclick="calcularPropina()">Calcular Propina</button>
         <p>Propina a entregar: $<span id="propina"></span></p>
         <p>Total con propina: $<span id="totalConPropina"></span></p>
