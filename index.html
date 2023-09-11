@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/style.css">
     <title>Calculadora de propinas</title>
-    <link rel="stylesheet" href="./public/style.css">
+
 </head>
 <body>
         <center>
     <div class="container">
         <h1>Calculadora de Propinas</h1>
-        <label for="total">Total de la cuenta:</label>
+        <label  for="total">Total de la cuenta:</label>
         <input type="number" id="total" placeholder="Ingrese el total de la cuenta">
         <label for="porcentaje">Porcentaje de propina:</label>
+
+        <input type="number" id="porcentaje" placeholder="Ingrese el porcentaje de propina">
+        <button class="btn" onclick="calcularPropina()">Calcular Propina</button>
+
         <!--<input type="number" id="porcentaje" placeholder="Ingrese el porcentaje de propina">-->
         <select name="porcentaje" id="porcentaje">
             <option value="10">10</option>
@@ -22,6 +27,7 @@
             <option value="30">30</option>
         </select>
         <button onclick="calcularPropina()">Calcular Propina</button>
+
         <p>Propina a entregar: $<span id="propina"></span></p>
         <p>Total con propina: $<span id="totalConPropina"></span></p>
     </div>
